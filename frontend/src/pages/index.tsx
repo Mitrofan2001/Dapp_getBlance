@@ -2,7 +2,6 @@ import { useState } from "react"
 import Web3 from "web3"
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-let web3;
 
 declare global {
   interface Window {
